@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #4C6B2F;
+    margin-left: 1rem;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+  }
+  
+  .hero {
+    background-color: #74B349;
+    padding: 40px 30px;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-family: 'Ivy Presto Text', serif;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .event-cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+  
+  .event-card {
+    flex: 1 1 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    color: #80B151;
+  }
+  
+  .event-left h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 8px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .event-left p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .event-right {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .event-icon {
+    font-size: 20px;
+    color: #8FC56E; /* green asterisk */
+    display: block;
+    transform: rotate(45deg);
+  }
+  
+  .event-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #B6D7A8; /* green box */
+    margin-bottom: 4px;
+  }
+  
+  .event-count {
+    display: block;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  
+  .explore-groups {
+  padding: 40px 30px;
+  background-color: white;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.section-header h2 {
+  font-family: 'Ivy Presto Text', serif;
+  font-size: 28px;
+  color: #2f471f;
+}
+
+.section-header a {
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+.groups-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+.group-card {
+    width: 296px;
+    height: 194px;
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .card-content {
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-content h3 {
+    font-family: 'Ivy Presto Text', serif;
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+  }
+  
+  .card-content p {
+    font-size: 13px;
+    color: #444;
+    margin: 8px 0;
+  }
+  
+  .card-content a {
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .card-image {
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  
+  footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  form {
+    display: inline-block;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=tel],
+  input[type=email] {
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  input[type=submit] {
+    background-color: #80B151;
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-align: auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+    border-radius: 25px;
+  }
+  
+

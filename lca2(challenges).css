@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #80B151;
+    color: #1a1a1a;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #4C6B2F;
+    margin-left: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    flex: 2rem;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    flex: 1;
+  }
+  
+  .left-section h1,
+  .left-section h2 {
+    margin: 0 0 1rem;
+    color: #ffffff;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card .text span {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .right-section h2 {
+    color: #fff;
+    margin-top: 2.5rem;
+  }
+  
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .article-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .article-card h4 {
+    margin: 0;
+  }
+  
+  .article-card button {
+    margin-top: 1rem;
+    background: #8CC153;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  form {
+    display: inline-block;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=tel],
+  input[type=email] {
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  input[type=submit] {
+    background-color: #80B151;
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-align: auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+    border-radius: 25px;
+  }
+  
+
