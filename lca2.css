@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #1a1a1a;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #4C6B2F;
+    margin-left: 1rem;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 1px;
+    background-color: #80B151;
+    flex-wrap: wrap;
+  }
+  
+  .hero h1 {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 7000;
+    font-family: 'IvyPresto Text';
+  }
+  
+  .hero p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    max-width: 500px;
+  }
+  
+  .hero-buttons {
+    margin-top: 2rem;
+  }
+  
+  .hero-buttons button {
+    padding: 0.8rem 2rem;
+    margin-right: 1rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .btn-primary {
+    background-color: #fff;
+    color: #4C6B2F;
+    font-size: 20px;
+  }
+  
+  .btn-secondary {
+    background-color: white;
+    color: #4C6B2F;
+    border: 2px solid #fff;
+    font-size: 20px;
+  }
+  
+  .hero-image img {
+    max-width: 400px;
+    margin-top: 1px;
+    align-items: center;
+  }
+  
+  .tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background: #f1f1f1;
+    font-weight: 600;
+  }
+  
+  .tags span {
+    margin: 0.5rem 1rem;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica, Inter, 'IvyPresto Text', sans-serif;
+  }
+  
+  .consultants-section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.thecommunityguide.org/media/2024/images/multi-racial-group-meeting-circle-of-chairs.jpg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+  }
+  
+  .consultants-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'IvyPresto Text', serif;
+    margin-bottom: 39px;
+  }
+  
+  .cards-wrapper {
+    display: flex;s
+    flex-wrap: nowrap;
+    gap: 25px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 410px;
+    height: 267px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  
+  .card:hover {
+    transform: scale(1.05);
+    border-radius: 5px;
+  }
+
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    opacity: 0;
+    transition: ease;
+    border-radius: 5px;
+    transform: scale(1.05);
+  }
+  
+  .card:hover .hover-overlay {
+    opacity: 10;
+    border-radius: 5px;
+  }
+  
+  .card img {
+    width: 193px;
+    height: 267px;
+    border-radius: 5px;
+    object-fit: cover;
+    background: #B4B4B4;
+  }
+  
+  .card-info {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  .card-info h3 {
+    font-size: 20px;
+    font-family: 'IvyPresto Text', serif;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+    text-align: right;
+  }
+  
+  .card-info p {
+    font-size: 16px;
+    color: #3D3D3D;
+    font-weight: 400;
+    margin: 0;
+    text-align: right;
+    font-family: Inter, sans-serif;
+  }
+  
+  .card-info a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+  }
+
+
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .box {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .box:hover {
+    transform: scale(1.05);
+  }
+  .green-box {
+    background-color: #80B151;
+  }
+  
+  .white-box {
+    background-color: #fff;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    width: 50%;
+    background: #80B151;
+    border-radius: 5px;
+  }
+  
+  body {
+    margin: 0;
+    font-family:helvetica;
+    background: #f9f9f9;
+  }
+  
+  .scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #ffffff;
+    padding: 0.5rem 0;
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  .scroll-content span {
+    display: inline-block;
+    margin: 0 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #4C6B2F;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  form {
+    display: inline-block;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=tel],
+  input[type=email] {
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  input[type=submit] {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 12px 24px;
+    text-align: auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+    border-radius: 25px;
+  }
+  
+
